@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="NetVarManager.cpp">
+      <Filter>Source Files\sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="ConVar.cpp">
+      <Filter>Source Files\sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="ISurface.cpp">
+      <Filter>Source Files\sdk\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="IVPanel.cpp">
+      <Filter>Source Files\sdk\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="Interfaces.cpp">
+      <Filter>Source Files\sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="IBaseClientDLL.cpp">
+      <Filter>Source Files\sdk\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="IMaterialSystem.cpp">
+      <Filter>Source Files\sdk\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_draw.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\dx9\imgui_dx9.cpp">
+      <Filter>Source Files\imgui\dx9</Filter>
+    </ClCompile>
+    <ClCompile Include="IInputSystem.cpp">
+      <Filter>Source Files\sdk\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="topkek.cpp">
+      <Filter>Source Files\sdk\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="misc.cpp">
+      <Filter>Source Files\hax 1338 test\features</Filter>
+    </ClCompile>
+    <ClCompile Include="visuals.cpp">
+      <Filter>Source Files\hax 1338 test\features</Filter>
+    </ClCompile>
+    <ClCompile Include="drawmodel.cpp">
+      <Filter>Source Files\hax 1338 test\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="endscene.cpp">
+      <Filter>Source Files\hax 1338 test\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="ptraverse.cpp">
+      <Filter>Source Files\hax 1338 test\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="posteffects.cpp">
+      <Filter>Source Files\hax 1338 test\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="cmscmove.cpp">
+      <Filter>Source Files\hax 1338 test\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files\hax 1338 test</Filter>
+    </ClCompile>
+    <ClCompile Include="entity.cpp">
+      <Filter>Source Files\hax 1338 test</Filter>
+    </ClCompile>
+    <ClCompile Include="offsets.cpp">
+      <Filter>Source Files\hax 1338 test</Filter>
+    </ClCompile>
+    <ClCompile Include="cfg.cpp">
+      <Filter>Source Files\hax 1338 test\shit</Filter>
+    </ClCompile>
+    <ClCompile Include="render.cpp">
+      <Filter>Source Files\hax 1338 test\shit</Filter>
+    </ClCompile>
+    <ClCompile Include="globals.cpp">
+      <Filter>Source Files\hax 1338 test\shit</Filter>
+    </ClCompile>
+    <ClCompile Include="math.cpp">
+      <Filter>Source Files\hax 1338 test\shit</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>Source Files\hax 1338 test\shit</Filter>
+    </ClCompile>
+    <ClCompile Include="enginepred.cpp">
+      <Filter>Source Files\hax 1338 test\features</Filter>
+    </ClCompile>
+    <ClCompile Include="backtrack.cpp">
+      <Filter>Source Files\hax 1338 test\features</Filter>
+    </ClCompile>
+    <ClCompile Include="legitaim.cpp">
+      <Filter>Source Files\hax 1338 test\features</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Common.h">
+      <Filter>Header Files\Cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="Misc.h">
+      <Filter>Header Files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK.h">
+      <Filter>Header Files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Header Files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Offsets.h">
+      <Filter>Header Files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="NetVarManager.h">
+      <Filter>Header Files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="ConVar.h">
+      <Filter>Header Files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Interfaces.h">
+      <Filter>Header Files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="IBaseClientDLL.h">
+      <Filter>Header Files\SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IClientEntityList.h">
+      <Filter>Header Files\SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IClientModeShared.h">
+      <Filter>Header Files\SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="ICvar.h">
+      <Filter>Header Files\SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IEngineClient.h">
+      <Filter>Header Files\SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IEngineTrace.h">
+      <Filter>Header Files\SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IGlobalVarsBase.h">
+      <Filter>Header Files\SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IInputSystem.h">
+      <Filter>Header Files\SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="ISurface.h">
+      <Filter>Header Files\SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IVPanel.h">
+      <Filter>Header Files\SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Trace.h">
+      <Filter>Header Files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Cheat.h">
+      <Filter>Header Files\Cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="Draw.h">
+      <Filter>Header Files\Cheat\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="VTHook.h">
+      <Filter>Header Files\Cheat\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="IVModelRender.h">
+      <Filter>Header Files\SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IVModelInfo.h">
+      <Filter>Header Files\SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IMaterialSystem.h">
+      <Filter>Header Files\SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IMaterial.h">
+      <Filter>Header Files\SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IRenderView.h">
+      <Filter>Header Files\SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks.h">
+      <Filter>Header Files\Cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="LegitBot.h">
+      <Filter>Header Files\Cheat\Enhancements</Filter>
+    </ClInclude>
+    <ClInclude Include="Enhancements.h">
+      <Filter>Header Files\Cheat\Enhancements</Filter>
+    </ClInclude>
+    <ClInclude Include="Global.h">
+      <Filter>Header Files\Cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="Visuals.h">
+      <Filter>Header Files\Cheat\Enhancements</Filter>
+    </ClInclude>
+    <ClInclude Include="Miscellaneous.h">
+      <Filter>Header Files\Cheat\Enhancements</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>Header Files\Cheat\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Header Files\Cheat\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="VPhysics.h">
+      <Filter>Header Files\SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IPrediction.h">
+      <Filter>Header Files\SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>Header Files\Cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="Vars.h">
+      <Filter>Header Files\Cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="Util.h">
+      <Filter>Header Files\Cheat\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="IVDebugOverlay.h">
+      <Filter>Header Files\SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IStudioRender.h">
+      <Filter>Header Files\SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="GlowManager.h">
+      <Filter>Header Files\Cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\stb_truetype.h">
+      <Filter>Source Files\imgui\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\dx9\imgui_dx9.h">
+      <Filter>Source Files\imgui\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imconfig.h">
+      <Filter>Source Files\imgui\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui.h">
+      <Filter>Source Files\imgui\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_internal.h">
+      <Filter>Source Files\imgui\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\stb_rect_pack.h">
+      <Filter>Source Files\imgui\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\stb_textedit.h">
+      <Filter>Source Files\imgui\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="IGameEvent.h">
+      <Filter>Header Files\SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IViewRenderBeams.h">
+      <Filter>Header Files\SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IViewRender.h">
+      <Filter>Header Files\SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="listener.h">
+      <Filter>Source Files\hax 1338 test</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_freetype.h">
+      <Filter>Source Files\imgui\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="enginepred.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{5a20e6af-3d9d-49f2-aef3-e1d511072d1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{34693407-bcdc-47bf-ae28-60945b681dc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Cheat">
+      <UniqueIdentifier>{e8126654-f359-4654-b7d7-462570af5fe7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SDK">
+      <UniqueIdentifier>{15dc3ad2-dfe3-40c5-815c-7b5111f77b5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Cheat\Util">
+      <UniqueIdentifier>{0cc4b421-a674-4db1-83c4-8040a7681395}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SDK\Interfaces">
+      <UniqueIdentifier>{b5b37e91-57ed-477e-9862-d3043be2eb5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Cheat\Enhancements">
+      <UniqueIdentifier>{0866e256-039f-4a3c-b0e1-b855165b200a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\imgui">
+      <UniqueIdentifier>{4f7e6295-5367-455e-813f-a81da828e8a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\imgui\dx9">
+      <UniqueIdentifier>{bdabb2cd-94dc-46d5-acc5-a57b65c13a00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\imgui\headers">
+      <UniqueIdentifier>{fae2de05-cea7-4efc-b80e-b6a41ebe2d40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\sdk">
+      <UniqueIdentifier>{9c62249c-e761-47bb-903e-ed2fbe5a3aa3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\sdk\Interfaces">
+      <UniqueIdentifier>{31d23d58-a113-4e2d-b57f-67e181453a27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\hax 1338 test">
+      <UniqueIdentifier>{3e7a22c0-7879-4b20-ae57-720ccf28d7c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\hax 1338 test\hooks">
+      <UniqueIdentifier>{2716070c-8eae-4a07-93b6-10ca6e4a8f26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\hax 1338 test\features">
+      <UniqueIdentifier>{9be8df7b-ea41-4aa8-a2ee-25147fb78878}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\hax 1338 test\shit">
+      <UniqueIdentifier>{b89a2d04-469e-4722-a228-4abac0e78094}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
