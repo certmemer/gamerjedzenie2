@@ -84,7 +84,7 @@ RecvTable *CNetVarManager::GetTable(const char *tableName)
 	if (m_tables.empty())
 		return 0;
 
-	for each (RecvTable *table in m_tables)
+	for (RecvTable *table : m_tables)
 	{
 		if (!table)
 			continue;

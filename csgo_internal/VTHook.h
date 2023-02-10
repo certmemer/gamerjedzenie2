@@ -127,7 +127,7 @@ private:
 	PDWORD	m_NewVT, m_OldVT;
 	DWORD	m_VTSize;
 };
-
+#include <stdexcept>
 
 namespace detail
 {

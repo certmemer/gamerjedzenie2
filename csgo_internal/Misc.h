@@ -1,7 +1,7 @@
 #pragma once
 
 #include "SDK.h"
-
+#include <cmath>
 #define CHECK_VALID( _v ) 0
 #define Assert( _exp ) ((void)0)
 
@@ -803,7 +803,7 @@ public:
 	QAngle Clamp();
 	QAngle Mod(float N);
 
-	inline QAngle QAngle::Normalize()
+	inline QAngle Normalize()
 	{
 		QAngle vector;
 		float length = this->Length();
@@ -1218,7 +1218,7 @@ struct mstudiobbox_t
 	float	radius;
 	int		pad2[4];
 
-	char* getHitboxName()
+	const char* getHitboxName()
 	{
 		if (hitboxnameindex == 0)
 			return "";
