@@ -47,7 +47,7 @@ bool __stdcall Hooks::CreateMove(float flInputSampleTime, CUserCmd* cmd)
             
 
 
-            else if (v.legitbot.enabled)
+             if (v.legitbot.enabled)
             {
                 if (v.legitbot.backtrack > 19) backtracking.legitBackTrack(cmd);
                 if (g::weapon->is_gun() && !v.misc.menu)

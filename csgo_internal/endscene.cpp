@@ -43,6 +43,7 @@ void menu()
 }
 
 long __stdcall Hooks::EndScene(IDirect3DDevice9* pDevice) 
+{
     if (!g::d3dinit) GUI_Init(pDevice);
     static bool reset = false;
 
